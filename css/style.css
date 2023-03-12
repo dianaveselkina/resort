@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Spectral';
+  src: url(../fonts/Spectral-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+ul,ol{
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav-list-item{
+  padding: 0 25px;
+}
+.banner{
+background-image: url('../images/Rectangle\ 4.png');
+background-repeat: no-repeat;
+background-size: cover;
+height: 850px; 
+display: flex;
+align-items: center;
+}
+.banner-content{
+  color: white;
+  background-color: rgba(52, 198, 189, 0.8);
+  width: 100%;
+}
+.banner-content-title{
+font-family: 'Spectral';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 42px;
+text-align: center;
+}
+.banner-content-text{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+text-align: center;
+}
+.about {
+  background-image: url('../images/3250580\ —\ копия\ 1.png');
+}
+.about-container {
+
+}
+.about-title{
+font-family: 'Spectral';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 73px;
+
+color: #312C3A;
+}
