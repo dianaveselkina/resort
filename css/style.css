@@ -7,6 +7,7 @@
 ul,ol{
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -66,7 +67,10 @@ text-align: center;
 .about {
   background-image: url('../images/3250580\ —\ копия\ 1.png');
 }
-
+.about-container{
+  height: 368px;
+  padding: 145px 250px 172px 270px;
+}
 .about-title{
 font-family: 'Spectral';
 font-style: normal;
@@ -74,4 +78,118 @@ font-weight: 700;
 font-size: 48px;
 line-height: 73px;
 color: #312C3A;
+margin: 0;
+padding: 0;
 }
+.about-content{
+  display: flex;
+}
+.about-content-text{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-align: justify;
+color: #896F50;
+background-color: white;
+padding: 26px 34px 18px 30px;
+width: 546px;
+height: 124px;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+z-index: 998;
+margin-left: -50px;
+}
+.about-content-img{
+  z-index: 999;
+  margin-top: -35px;
+  margin-left: 10px;
+}
+.about-content-link{
+  position: absolute;
+  width: 145px;
+  height: 40.11px;
+  left: 1045px;
+  top: 1316px;
+}
+.hotel-room-container{
+  height: 492px;
+  padding: 149px 305px 107px 280px;
+  display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-between;
+}
+.hotel-room-content-title{
+position: absolute;
+width: 430px;
+height: 54px;
+left: 505px;
+top: 1673px;
+text-align: center;
+font-family: 'Spectral';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 55px;
+color: #312C3A;
+
+}
+.hotel-room-content-link{
+position: absolute;
+width: 145px;
+height: 40.11px;
+left: 1002px;
+top: 1720px;
+}
+.hotel-room-content-link1{
+  position: absolute;
+  width: 145px;
+  height: 40.11px;
+  left: 334px;
+  top: 2144px; 
+}
+
+.hotel-room-content-img1{
+position: absolute;
+width: 65px;
+height: 41px;
+left: 463px;
+top: 1790px;
+}
+.hotel-room-content-img2{
+  position: absolute;
+  width: 65px;
+  height: 41px;
+  left: 993px;
+  top: 1790px;
+  }
+  .hotel-room-content-img3{
+    position: absolute;
+    width: 65px;
+    height: 41px;
+    left: 1540px;
+    top: 1790px;
+    }
+.hotel-room-content-text{
+  position: absolute;
+  height: 72px;
+  left: 21.39%;
+  right: 64.58%;
+  
+  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  
+  color: #6C656F;
+ }
+ #button1{
+  position: absolute;
+  left: 334px;
+  top: 2174px;
+ }
